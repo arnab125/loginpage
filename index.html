@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          background-image: url('images/desert.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+    </style>        
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header><h1 class="text-5xl font-extrabold text-center mt-20 mb-12">Login to Your Travel Account</h1></header>
+  <main>
+      <section class="bg-green-700 mx-auto w-1/2 p-28 mb-20 border-2 border-black rounded ring-offset-2 ring-8">
+        <h1 class="text-2xl font-semibold text-center mb-12 bg-emerald-400 p-2 border-2 border-black rounded">Login to gain access to your profie</h1>  
+        <form action="">
+            <input type="text" id="email" class="block mb-6 p-1 border-2 border-black rounded" placeholder=" Enter Your Email">
+            <input type="password" id="pass" class="block mb-6 p-1 border-2 border-black rounded" placeholder=" Enter your password">
+            <button type="submit" id="but" class="bg-red-900 px-2 py-1 border-2 border-black rounded">Submit</button>
+        </form>
+      </section> 
+    </main>
+<script src="login.js"></script>
+</body>
+</html>
